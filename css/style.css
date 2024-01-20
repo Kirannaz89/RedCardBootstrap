@@ -1,0 +1,65 @@
+#style.css
+
+.header {
+	margin: 0px;
+	padding: 0px;
+}
+
+.maroon {
+	background-color: maroon;
+}
+
+h1 {
+	font-size: 70px;
+}
+
+.black {
+	color: black;
+}
+
+ input[type=text] {
+ 	background-color: maroon;
+ }
+
+ input[type=submit] {
+ 	background-color: maroon;
+ 	color: white;
+ }
+
+ .img {
+float: right; 
+background-color: white;
+-ms-transform: rotate( 180deg); /* IE 9 */
+           transform: rotate(180deg);
+}
+
+
+@media screen and (max-width:450px) {
+	h1 {
+		font-size: 50px
+	}
+
+	input[type=text] {
+ 	     width:250px;
+ }
+
+ input[type=submit] {
+ 	     width: 250px;
+ }
+
+}
+
+@media screen and (max-width:320px) {
+	h1 {
+		font-size: 30px
+	}
+
+	input[type=text] {
+ 	     width:250px;
+ }
+
+ input[type=submit] {
+ 	     width: 250px;
+ }
+
+}
